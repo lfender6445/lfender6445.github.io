@@ -93,7 +93,7 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #eef; }
+}
 
 code {
   padding: 1px 5px; }
@@ -312,8 +312,6 @@ pre {
 /**
  * Syntax highlighting styles
  */
-.highlight {
-  background: #fff; }
   .highlight .c {
     color: #998;
     font-style: italic; }
