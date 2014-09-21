@@ -81,7 +81,7 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
 
 * ## Workflowy
 
-  TODO list apps are everywhere. The free version even syncs up with my email. Workflowy makes making lists fun again (make lists not war!). Its a simple app equipped with powerful key bindings and is something I use both in personal and professional life.
+  TODO list apps are everywhere. Workflowy makes making lists fun again (make lists not war!!!) - the free version even syncs up with my email. Its a simple app equipped with powerful key bindings and is something I use both in personal and professional life.
 
   For what its worth, I prefer the web client to the chrome extension.
 
@@ -90,6 +90,7 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
 * ## Appspector
   This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
 mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
+
 [Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
 
 * ## Tab Pinner
@@ -105,6 +106,7 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
   > "The Omniref addon integrates Ruby documentation search results from Omniref.com into your Google search results, and automatically annotates Ruby source listings on Github with links to documentation searches on Omniref."
 
   It would be nice to see more extensions like this geared towards other languages.
+
   [Get Ruby Omniref Chrome Extension](https://chrome.google.com/webstore/detail/omniref/jgkfbhdcoimcmlnebfnggkegaincacgj?hl=en){:class='grn'}
 
 ## Some Extras
