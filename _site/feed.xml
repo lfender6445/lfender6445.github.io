@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 13:15:41 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 13:15:41 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 13:16:23 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 13:16:23 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -138,14 +138,14 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 
     &lt;p&gt;LastPass is amazing. With lastpass I can automate logins across all of my devices and customize each page or entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US&quot; class=&quot;grn&quot;&gt;Get LastPass&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US&quot; class=&quot;grn&quot;&gt;Get LastPass Chrome Extension&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h3 id=&quot;check-my-links&quot;&gt;Check My Links&lt;/h3&gt;
 
     &lt;p&gt;This plugin is more suited towards bloggers, but it allows you to verify that all of the links on your page or post are working as intended. Useful for drafting and publishing content.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf&quot; class=&quot;grn&quot;&gt;Get Check my Links&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf&quot; class=&quot;grn&quot;&gt;Get Check my Links Chrome Extension&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
