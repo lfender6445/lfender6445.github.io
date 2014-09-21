@@ -5,5 +5,5 @@ $(document).ready(function() {
         target: "_blank"
       });
     }
-  })
-})
+  });
+});
