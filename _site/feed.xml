@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 19:37:32 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 19:37:32 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 19:47:26 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 19:47:26 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -17,7 +17,6 @@
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;livereload&quot;&gt;LiveReload&lt;/h2&gt;
-    &lt;p&gt;I work with the web. I breathe the web.&lt;/p&gt;
 
     &lt;p&gt;LiveReload allows you to detect changes on your file system and reloads the pages to reflect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I’ve found.&lt;/p&gt;
 
@@ -150,8 +149,8 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 21 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//development/2014/09/21/10-must-have-chrome-extensions-for-developers.html</link>
-        <guid isPermaLink="true">http://localhost:4000//development/2014/09/21/10-must-have-chrome-extensions-for-developers.html</guid>
+        <link>http://localhost:4000//10-must-have-chrome-extensions-for-developers-2014/</link>
+        <guid isPermaLink="true">http://localhost:4000//10-must-have-chrome-extensions-for-developers-2014/</guid>
         
         <category>chrome</category>
         

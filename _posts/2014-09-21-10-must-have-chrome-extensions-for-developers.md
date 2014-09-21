@@ -4,12 +4,12 @@ title: "10 Must Have Chrome Extensions for Developers 2014"
 description: ""
 category: development
 tags: [chrome, development, productivity]
+permalink: /10-must-have-chrome-extensions-for-developers-2014/
 ---
 
 A DRY work flow is crucial in development. In the time I've been programming, I've collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.
 
 * ## LiveReload
-  I work with the web. I breathe the web.
 
   LiveReload allows you to detect changes on your file system and reloads the pages to reflect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I've found.
 
