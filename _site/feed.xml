@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 13:04:42 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 13:04:42 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 13:14:57 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 13:14:57 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -30,7 +30,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;vimium&quot;&gt;Vimium&lt;/h2&gt;
-    &lt;p&gt;Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered &lt;a href=&quot;&quot;&gt;Vimium&lt;/a&gt; a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.&lt;/p&gt;
+    &lt;p&gt;Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered Vimium a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.&lt;/p&gt;
 
     &lt;p&gt;Here are a few of my favorite bindings:&lt;/p&gt;
 
@@ -130,15 +130,22 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 
 &lt;h2 id=&quot;some-extras&quot;&gt;Some Extras&lt;/h2&gt;
 
-&lt;p&gt;This was supposed to be a list of 10 extensions but what the hell. Lets make it 11&lt;/p&gt;
+&lt;p&gt;This was supposed to be a list of 10 extensions but what the hell. Lets make it 12&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;h1 id=&quot;lastpass&quot;&gt;LastPass&lt;/h1&gt;
+    &lt;h3 id=&quot;lastpass&quot;&gt;LastPass&lt;/h3&gt;
 
-    &lt;p&gt;LastPass is amazing. With lastpass I can automate logins across all of my devices and customize entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.&lt;/p&gt;
+    &lt;p&gt;LastPass is amazing. With lastpass I can automate logins across all of my devices and customize each page or entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US&quot; class=&quot;grn&quot;&gt;Get LastPass&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;check-my-links&quot;&gt;Check My Links&lt;/h3&gt;
+
+    &lt;p&gt;This plugin is more suited towards bloggers, but it allows you to verify that all of the links on your page or post are working as intended. Useful for drafting and publishing content.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf&quot;&gt;Get Check my Links&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>

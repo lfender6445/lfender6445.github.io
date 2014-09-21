@@ -22,7 +22,7 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
 
 
 * ## Vimium
-  Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered [Vimium]() a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.
+  Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered Vimium a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.
 
   Here are a few of my favorite bindings:
 
@@ -109,10 +109,16 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 
 ## Some Extras
 
-This was supposed to be a list of 10 extensions but what the hell. Lets make it 11
+This was supposed to be a list of 10 extensions but what the hell. Lets make it 12
 
-  * # LastPass
+  * ### LastPass
 
-    LastPass is amazing. With lastpass I can automate logins across all of my devices and customize entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.
+    LastPass is amazing. With lastpass I can automate logins across all of my devices and customize each page or entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.
 
     [Get LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US){:class='grn'}
+
+  * ### Check My Links
+
+    This plugin is more suited towards bloggers, but it allows you to verify that all of the links on your page or post are working as intended. Useful for drafting and publishing content.
+
+    [Get Check my Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf)
