@@ -6,31 +6,31 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 12:46:08 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 12:46:08 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 13:02:48 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 13:02:48 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>10 Must Have Chrome Extensions for Developers 2014</title>
-        <description>&lt;p&gt;Developing a DRY workflow is crucial in my day to day activities. In the time I’ve been developing, I’ve collected a few chrome extensions that are essential to my development workflow and that make both work and life in the browser much easier.&lt;/p&gt;
+        <description>&lt;p&gt;Developing a DRY work flow is crucial in my day to day activities. In the time I’ve been developing, I’ve collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;livereload&quot;&gt;LiveReload&lt;/h2&gt;
     &lt;p&gt;I work with the web. I breathe the web.&lt;/p&gt;
 
-    &lt;p&gt;LiveReload allows you to detect changes on your file system and reloads the pages to refelect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I’ve found.&lt;/p&gt;
+    &lt;p&gt;LiveReload allows you to detect changes on your file system and reloads the pages to reflect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I’ve found.&lt;/p&gt;
 
     &lt;p&gt;All thats left is to enable LiveReload for your current page and start the Guard server!&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei&quot; class=&quot;grn&quot;&gt;Get LiveReload&lt;/a&gt;
-&lt;a href=&quot;https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdle://github.com/guard/guard-livereload&quot; class=&quot;grn&quot;&gt;Get Guard LiveReload&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/guard/guard-livereload&quot; class=&quot;grn&quot;&gt;Get Guard LiveReload&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;An alternative to LiveReload for simpler projects is &lt;a href=&quot;https://chrome.google.com/webstore/detail/tincr/lfjbhpnjiajjgnjganiaggebdhhpnbih&quot;&gt;Tincr&lt;/a&gt;, which creates a new panel in the chrome dev tools to toggle reloading against a specific page or file.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;vimium&quot;&gt;Vimium&lt;/h2&gt;
-    &lt;p&gt;Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered &lt;a href=&quot;&quot;&gt;Vimium&lt;/a&gt; a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any webpage. This is especially useful for repetetive tasks, navigation, and tab managmenent.&lt;/p&gt;
+    &lt;p&gt;Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered &lt;a href=&quot;&quot;&gt;Vimium&lt;/a&gt; a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.&lt;/p&gt;
 
     &lt;p&gt;Here are a few of my favorite bindings:&lt;/p&gt;
 
@@ -54,7 +54,7 @@ B       Open bookmark in a new tab
     &lt;p&gt;I’ve only scratched the surface - check out the source code for more information&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb&quot; class=&quot;grn&quot;&gt;Get Vimium Chrome Extension&lt;/a&gt;
-&lt;a href=&quot;https://github.com/philc/vimium/README.md&quot; class=&quot;grn&quot;&gt;Vimium Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/philc/vimium/&quot; class=&quot;grn&quot;&gt;Vimium Documentation&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;postman---rest-client&quot;&gt;Postman - REST Client&lt;/h2&gt;
@@ -70,9 +70,9 @@ B       Open bookmark in a new tab
 
     &lt;p&gt;Chrome, for whatver reason, doesn’t render JSON in a sensible way.&lt;/p&gt;
 
-    &lt;p&gt;JSONView supports syntax highlightling and the collapsing and nesting of JSON responses.&lt;/p&gt;
+    &lt;p&gt;JSONView supports syntax highlighting and the collapsing and nesting of JSON responses.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en&quot; class=&quot;grn&quot;&gt;Get JSONView Chrome Extension&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en&quot; class=&quot;grn&quot;&gt;Get JSONView Chrome Extension&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;hacker-vision&quot;&gt;Hacker Vision&lt;/h2&gt;
@@ -86,9 +86,9 @@ B       Open bookmark in a new tab
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;devtools-theme-zero-dark-matrix&quot;&gt;DevTools Theme: Zero Dark Matrix&lt;/h2&gt;
-    &lt;p&gt;If you spend a lot of time in the chrome web inspector, then this plugin is for you. Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this reskin attempts to recraft the console for ease of use and access, where panels have logical placement and are easily resized.&lt;/p&gt;
+    &lt;p&gt;If you spend a lot of time in the chrome web inspector, then this plugin is for you. Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this re-skin attempts to re-craft the console for ease of use and access, where panels have logical placement and are easily resized.&lt;/p&gt;
 
-    &lt;p&gt;There are some nice CSS3 animations that come with the plugin as well, giving an accordian and drawer like feel to chrome dev tools.&lt;/p&gt;
+    &lt;p&gt;There are some nice CSS3 animations that come with the plugin as well, giving an accordion and drawer like feel to chrome dev tools.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo?hl=en-US&quot; class=&quot;grn&quot;&gt;Get Zero Dark Matrix Chrome DevTools Theme&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
@@ -104,7 +104,7 @@ B       Open bookmark in a new tab
   &lt;li&gt;
     &lt;h2 id=&quot;appspector&quot;&gt;Appspector&lt;/h2&gt;
     &lt;p&gt;This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
-mostly to guage what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
+mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
 &lt;a href=&quot;https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en&quot; class=&quot;grn&quot;&gt;Get Appspector Chrome Extension&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -125,6 +125,20 @@ mostly to guage what libraries my favorite sites are using - it also does a good
 
     &lt;p&gt;It would be nice to see more extensions like this geared towards other languages.
 &lt;a href=&quot;https://chrome.google.com/webstore/detail/omniref/jgkfbhdcoimcmlnebfnggkegaincacgj?hl=en&quot; class=&quot;grn&quot;&gt;Get Ruby Omniref Chrome Extension&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-extras&quot;&gt;Some Extras&lt;/h2&gt;
+
+&lt;p&gt;This was supposed to be a list of 10 extensions but what the hell. Lets make it 11&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;lastpass&quot;&gt;LastPass&lt;/h1&gt;
+
+    &lt;p&gt;LastPass is amazing. With lastpass I can automate logins across all of my devices and customize entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US&quot; class=&quot;grn&quot;&gt;Get LastPass&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>

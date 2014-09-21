@@ -6,24 +6,24 @@ category: development
 tags: [chrome, development, productivity]
 ---
 
-Developing a DRY workflow is crucial in my day to day activities. In the time I've been developing, I've collected a few chrome extensions that are essential to my development workflow and that make both work and life in the browser much easier.
+Developing a DRY work flow is crucial in my day to day activities. In the time I've been developing, I've collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.
 
 
 * ## LiveReload
   I work with the web. I breathe the web.
 
-  LiveReload allows you to detect changes on your file system and reloads the pages to refelect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I've found.
+  LiveReload allows you to detect changes on your file system and reloads the pages to reflect current changes. It receives messages from a Guard server running in your project root and is highly configurable, using regular expressions to reload the browser when files of your choice have changed. The downside is you have to configure a guard server in tandem with the plugin, but it is BY FAR the most flexible solution I've found.
 
   All thats left is to enable LiveReload for your current page and start the Guard server!
 
   [Get LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei){: class='grn'}
-  [Get Guard LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdle://github.com/guard/guard-livereload){: class='grn'}
+  [Get Guard LiveReload](https://github.com/guard/guard-livereload){: class='grn'}
 
   An alternative to LiveReload for simpler projects is [Tincr](https://chrome.google.com/webstore/detail/tincr/lfjbhpnjiajjgnjganiaggebdhhpnbih), which creates a new panel in the chrome dev tools to toggle reloading against a specific page or file.
 
 
 * ## Vimium
-  Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered [Vimium]() a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any webpage. This is especially useful for repetetive tasks, navigation, and tab managmenent.
+  Users of the vim text editor will love this extension. Time is everything. The less time I have to spend using the mouse the better. I discovered [Vimium]() a few days ago and it is nothing short of amazing, adding sensible vim like bindings to any web page. This is especially useful for repetitive tasks, navigation, and tab management.
 
   Here are a few of my favorite bindings:
 
@@ -45,7 +45,7 @@ Developing a DRY workflow is crucial in my day to day activities. In the time I'
   I've only scratched the surface - check out the source code for more information
 
   [Get Vimium Chrome Extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb){: class='grn'}
-  [Vimium Documentation](https://github.com/philc/vimium/README.md){: class='grn'}
+  [Vimium Documentation](https://github.com/philc/vimium/){: class='grn'}
 
 
 * ## Postman - REST Client
@@ -59,9 +59,9 @@ Developing a DRY workflow is crucial in my day to day activities. In the time I'
 
   Chrome, for whatver reason, doesn't render JSON in a sensible way.
 
-  JSONView supports syntax highlightling and the collapsing and nesting of JSON responses.
+  JSONView supports syntax highlighting and the collapsing and nesting of JSON responses.
 
-  [Get JSONView Chrome Extension](://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en){: class='grn'}
+  [Get JSONView Chrome Extension](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en){: class='grn'}
 
 * ## Hacker Vision
   The web is traditionally built with black text on a stark white background. As a developer, it can be straining to make the visual context switch between these contrasts.
@@ -74,9 +74,9 @@ Developing a DRY workflow is crucial in my day to day activities. In the time I'
   [Get Hacker Vision Chrome Extension](https://chrome.google.com/webstore/detail/hacker-vision/fommidcneendjonelhhhkmoekeicedej?hl=en-US){:class='grn'}
 
 * ## DevTools Theme: Zero Dark Matrix
-  If you spend a lot of time in the chrome web inspector, then this plugin is for you. Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this reskin attempts to recraft the console for ease of use and access, where panels have logical placement and are easily resized.
+  If you spend a lot of time in the chrome web inspector, then this plugin is for you. Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this re-skin attempts to re-craft the console for ease of use and access, where panels have logical placement and are easily resized.
 
-  There are some nice CSS3 animations that come with the plugin as well, giving an accordian and drawer like feel to chrome dev tools.
+  There are some nice CSS3 animations that come with the plugin as well, giving an accordion and drawer like feel to chrome dev tools.
 
   [Get Zero Dark Matrix Chrome DevTools Theme](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo?hl=en-US){:class='grn'}
 
@@ -90,7 +90,7 @@ Developing a DRY workflow is crucial in my day to day activities. In the time I'
 
 * ## Appspector
   This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
-mostly to guage what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
+mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
 [Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
 
 * ## Tab Pinner
@@ -107,3 +107,13 @@ mostly to guage what libraries my favorite sites are using - it also does a good
 
   It would be nice to see more extensions like this geared towards other languages.
   [Get Ruby Omniref Chrome Extension](https://chrome.google.com/webstore/detail/omniref/jgkfbhdcoimcmlnebfnggkegaincacgj?hl=en){:class='grn'}
+
+## Some Extras
+
+This was supposed to be a list of 10 extensions but what the hell. Lets make it 11
+
+  * # LastPass
+
+    LastPass is amazing. With lastpass I can automate logins across all of my devices and customize entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.
+
+    [Get LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US){:class='grn'}
