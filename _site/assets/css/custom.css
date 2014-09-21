@@ -1,4 +1,5 @@
-.grn {
+.post-content a{color:#E19200;}
+.post-content a.grn {
   color: #FFF;
   border: 1px solid #5D910B;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93BD20), color-stop(100%, #659E10));
