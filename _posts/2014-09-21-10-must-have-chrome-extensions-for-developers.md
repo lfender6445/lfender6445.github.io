@@ -6,8 +6,7 @@ category: development
 tags: [chrome, development, productivity]
 ---
 
-Developing a DRY work flow is crucial in my day to day activities. In the time I've been developing, I've collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.
-
+A DRY work flow is crucial in development. In the time I've been programming, I've collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.
 
 * ## LiveReload
   I work with the web. I breathe the web.
@@ -94,7 +93,7 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 [Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
 
 * ## Tab Pinner
-  Chrome treats pinned tabs differently - if chrome is every shut down or crashes, these tabs are reopened by default.
+  Chrome treats pinned tabs differently - if chrome is ever shut down or crashes, pinned tabs are reopened by default.
 
   I find Chromes 'pin tab' feature to be quite useful. Unfortunately, chrome is not equipped with a key binding that allows me to easily pin tabs. Tab pinner allows the user to easily pin and unpin tabs with `cmd + shift + x`.
 

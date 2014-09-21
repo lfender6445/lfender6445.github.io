@@ -6,13 +6,13 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 13:02:48 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 13:02:48 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 13:04:42 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 13:04:42 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>10 Must Have Chrome Extensions for Developers 2014</title>
-        <description>&lt;p&gt;Developing a DRY work flow is crucial in my day to day activities. In the time I’ve been developing, I’ve collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.&lt;/p&gt;
+        <description>&lt;p&gt;A DRY work flow is crucial in development. In the time I’ve been programming, I’ve collected a few chrome extensions that are essential to my development work flow and that make both my professional and personal life in the browser much easier.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -109,7 +109,7 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
   &lt;/li&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;tab-pinner&quot;&gt;Tab Pinner&lt;/h2&gt;
-    &lt;p&gt;Chrome treats pinned tabs differently - if chrome is every shut down or crashes, these tabs are reopened by default.&lt;/p&gt;
+    &lt;p&gt;Chrome treats pinned tabs differently - if chrome is ever shut down or crashes, pinned tabs are reopened by default.&lt;/p&gt;
 
     &lt;p&gt;I find Chromes ‘pin tab’ feature to be quite useful. Unfortunately, chrome is not equipped with a key binding that allows me to easily pin tabs. Tab pinner allows the user to easily pin and unpin tabs with &lt;code&gt;cmd + shift + x&lt;/code&gt;.&lt;/p&gt;
 
