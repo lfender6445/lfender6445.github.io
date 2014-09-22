@@ -92,6 +92,7 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
 * ## Appspector
   This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
 mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
+  Appspector adds a subtle icon in the address bar of the page you are viewing to indicate detected libraries.
 
   [Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
 
