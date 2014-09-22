@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 19:58:15 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 19:58:15 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2014 20:18:02 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2014 20:18:02 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -104,12 +104,9 @@ B       Open bookmark in a new tab
     &lt;h2 id=&quot;appspector&quot;&gt;Appspector&lt;/h2&gt;
     &lt;p&gt;This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
 mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en&quot; class=&quot;grn&quot;&gt;Get Appspector Chrome Extension&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en&quot; class=&quot;grn&quot;&gt;Get Appspector Chrome Extension&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
   &lt;li&gt;
     &lt;h2 id=&quot;tab-pinner&quot;&gt;Tab Pinner&lt;/h2&gt;
     &lt;p&gt;Chrome treats pinned tabs differently - if chrome is ever shut down or crashes, pinned tabs are reopened by default.&lt;/p&gt;

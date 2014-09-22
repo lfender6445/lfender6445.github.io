@@ -91,7 +91,7 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
   This plugin allows you to detect web applications and javascript libraries that are running on a specific website. I keep this one installed
 mostly to gauge what libraries my favorite sites are using - it also does a good job of detecting blogging platforms or frameworks like WordPress and Joomla.
 
-[Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
+  [Get Appspector Chrome Extension](https://chrome.google.com/webstore/detail/appspector/homgcnaoacgigpkkljjjekpignblkeae?hl=en){:class='grn'}
 
 * ## Tab Pinner
   Chrome treats pinned tabs differently - if chrome is ever shut down or crashes, pinned tabs are reopened by default.
