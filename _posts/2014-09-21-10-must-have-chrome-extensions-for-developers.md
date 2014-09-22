@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Must Have Chrome Extensions for Developers 2014"
-description: ""
+description: "10 Must Have Chrome Extensions for Developers 2014"
 category: development
 tags: [chrome, development, productivity]
 permalink: /10-must-have-chrome-extensions-for-developers-2014/
@@ -63,17 +63,19 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
   [Get JSONView Chrome Extension](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en){: class='grn'}
 
 * ## Hacker Vision
-  The web is traditionally built with black text on a stark white background. As a developer, it can be straining to make the visual context switch between these contrasts.
+  The web is traditionally built with black text on a stark white background. As a developer who spends a lot of time in text editors and terminal, it can be straining to make the visual context switch between these contrasts.
 
 
-  HackerVision is an extension that injects CSS into your current page, using a formula to invert colors and apply terminal like shading to the body and text, making pages much easier to read, thus reducing eye strain  Another plugin, [deuluminate](https://chrome.google.com/webstore/detail/deluminate/iebboopaeangfpceklajfohhbpkkfiaa?hl=en-US) works in a similar way.
+  HackerVision is an extension that injects CSS into your current page, using a formula to invert colors and apply terminal like shading to the body and text, making pages much easier to read, thus reducing eye strain.  Another plugin, [deuluminate](https://chrome.google.com/webstore/detail/deluminate/iebboopaeangfpceklajfohhbpkkfiaa?hl=en-US) works in a similar way.
 
-  The plugin binds to `cmd + shift + f11`, allowing you to easily toggle hacker vision on and off. You also have the ability to disable hacker vision for specific plugins and pages.
+  The plugin binds to `cmd + shift + f11`, allowing you to easily toggle hacker vision on and off. You also have the ability to disable hacker vision for specific pages.
 
   [Get Hacker Vision Chrome Extension](https://chrome.google.com/webstore/detail/hacker-vision/fommidcneendjonelhhhkmoekeicedej?hl=en-US){:class='grn'}
 
 * ## DevTools Theme: Zero Dark Matrix
-  If you spend a lot of time in the chrome web inspector, then this plugin is for you. Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this re-skin attempts to re-craft the console for ease of use and access, where panels have logical placement and are easily resized.
+  If you spend a lot of time in the chrome web inspector, then this plugin is for you.
+
+  Based on a molokai like colorscheme, this plugin restyles your dev console so it is more in line with a traditional dev themed text editor that will feel very familiar to users of Vim or Sublime. Because the web inspector itself is just HTML and CSS, this re-skin attempts to re-craft the console for ease of use and access, where panels have logical placement and are easily resized.
 
   There are some nice CSS3 animations that come with the plugin as well, giving an accordion and drawer like feel to chrome dev tools.
 
@@ -81,9 +83,9 @@ A DRY work flow is crucial in development. In the time I've been programming, I'
 
 * ## Workflowy
 
-  TODO list apps are everywhere. Workflowy makes making lists fun again (make lists not war!!!) - the free version even syncs up with my email. Its a simple app equipped with powerful key bindings and is something I use both in personal and professional life.
+  TODO list apps are everywhere, but this is by far my favorite. Workflowy makes making lists fun again (make lists not war!!!) - the free version even syncs up with my email. Its a simple app equipped with powerful key bindings and is something I use both in personal and professional life.
 
-  For what its worth, I prefer the web client to the chrome extension.
+  For what its worth, I prefer the [web client](https://workflowy.com/) to the chrome extension, where I always have it open as a pinned tab.
 
   [Get Workflowy Chrome Extension](https://chrome.google.com/webstore/detail/workflowy/koegeopamaoljbmhnfjbclbocehhgmkm?hl=en-US){:class='grn'}
 
@@ -105,22 +107,24 @@ mostly to gauge what libraries my favorite sites are using - it also does a good
 
   > "The Omniref addon integrates Ruby documentation search results from Omniref.com into your Google search results, and automatically annotates Ruby source listings on Github with links to documentation searches on Omniref."
 
-  It would be nice to see more extensions like this geared towards other languages.
+  It would be nice to see more extensions like this geared towards other languages and libraries.
 
   [Get Ruby Omniref Chrome Extension](https://chrome.google.com/webstore/detail/omniref/jgkfbhdcoimcmlnebfnggkegaincacgj?hl=en){:class='grn'}
 
 ## Some Extras
 
-This was supposed to be a list of 10 extensions but what the hell. Lets make it 12
+This was supposed to be a list of 10 extensions but what the hell. Lets make it 12!
 
   * ### LastPass
 
-    LastPass is amazing. With lastpass I can automate logins across all of my devices and customize each page or entry under a single master password, saving me the headache of having to remember every unique password combination I possess for a site. I could not live without this plugin.
+    LastPass is amazing. With lastpass I can automate logins across all of my devices and customize each page or entry under a single master password, saving me the headache of having to remember every unique password and login combination I possess for my favorite sites.
+
+    I could not live without this plugin.
 
     [Get LastPass Chrome Extension](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US){:class='grn'}
 
   * ### Check My Links
 
-    This plugin is more suited towards bloggers, but it allows you to verify that all of the links on your page or post are working as intended. Useful for drafting and publishing content.
+    This plugin is more suited towards bloggers, so I hesitate putting it here - either way, it allows you to verify that all of the links on your page or post are working as intended. Useful for drafting and publishing content or documentation with outbound links.
 
     [Get Check my Links Chrome Extension](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf){:class='grn'}
