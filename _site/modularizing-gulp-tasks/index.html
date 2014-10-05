@@ -44,12 +44,11 @@
 
 <p>Whether its minification, or a set of release tasks, the game of copy and paste can be burdensome. No point in reinventing the wheel for a new project, right?</p>
 
-<p>Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.
-modularizing gulp tasksr</p>
+<p>Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.</p>
 
 <h2 id="register-gulp-tasks-via-moduleexport">register gulp tasks via module.export</h2>
 
-<p>Node makes it relatively simple to require and scope methods to a single module. This post here on <a href="http://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files">StackOverflow</a> shows that there are multiple ways to hammer a nail.</p>
+<p>Node makes it relatively simple to require and scope methods to a single module.</p>
 
 <p>With gulp specifically, it is relatively easy to import tasks from another file. You do this simply by passing a reference to your initial <code>gulp</code> object.</p>
 
@@ -65,7 +64,7 @@ modularizing gulp tasksr</p>
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// ./node_modules/gulp-foo/index.js</span>
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">gulp</span><span class="p">){</span>
   <span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;foo&#39;</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;bar&#39;</span><span class="p">);</span>
   <span class="p">};</span>
 <span class="p">};</span></code></pre></div>
 

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Oct 2014 18:31:59 -0400</pubDate>
-    <lastBuildDate>Sun, 05 Oct 2014 18:31:59 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Oct 2014 18:36:57 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Oct 2014 18:36:57 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -16,12 +16,11 @@
 
 &lt;p&gt;Whether its minification, or a set of release tasks, the game of copy and paste can be burdensome. No point in reinventing the wheel for a new project, right?&lt;/p&gt;
 
-&lt;p&gt;Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.
-modularizing gulp tasksr&lt;/p&gt;
+&lt;p&gt;Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.&lt;/p&gt;
 
 &lt;h2 id=&quot;register-gulp-tasks-via-moduleexport&quot;&gt;register gulp tasks via module.export&lt;/h2&gt;
 
-&lt;p&gt;Node makes it relatively simple to require and scope methods to a single module. This post here on &lt;a href=&quot;http://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files&quot;&gt;StackOverflow&lt;/a&gt; shows that there are multiple ways to hammer a nail.&lt;/p&gt;
+&lt;p&gt;Node makes it relatively simple to require and scope methods to a single module.&lt;/p&gt;
 
 &lt;p&gt;With gulp specifically, it is relatively easy to import tasks from another file. You do this simply by passing a reference to your initial &lt;code&gt;gulp&lt;/code&gt; object.&lt;/p&gt;
 
@@ -37,7 +36,7 @@ modularizing gulp tasksr&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// ./node_modules/gulp-foo/index.js&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;bar&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 

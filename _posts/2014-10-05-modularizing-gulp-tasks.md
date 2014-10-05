@@ -12,11 +12,10 @@ Gulp is nodes popular stream based building system, and has been an absolute ple
 Whether its minification, or a set of release tasks, the game of copy and paste can be burdensome. No point in reinventing the wheel for a new project, right?
 
 Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.
-modularizing gulp tasksr
 
 ## register gulp tasks via module.export
 
-Node makes it relatively simple to require and scope methods to a single module. This post here on [StackOverflow](http://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files) shows that there are multiple ways to hammer a nail.
+Node makes it relatively simple to require and scope methods to a single module.
 
 With gulp specifically, it is relatively easy to import tasks from another file. You do this simply by passing a reference to your initial `gulp` object.
 
@@ -35,7 +34,7 @@ Inside of our module, we may expect to find something like this:
 // ./node_modules/gulp-foo/index.js
 module.exports = function(gulp){
   gulp.task('foo', function(){
-    console.log('foo');
+    console.log('bar');
   };
 };
 {% endhighlight %}
