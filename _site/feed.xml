@@ -6,9 +6,71 @@
 </description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Sep 2014 20:29:56 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2014 20:29:56 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Oct 2014 18:31:59 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Oct 2014 18:31:59 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>modularizing gulp tasks</title>
+        <description>&lt;p&gt;Gulp is nodes popular stream based building system, and has been an absolute pleasure to work with. However, as I move from project to project, I often find myself relying on the same tasks.&lt;/p&gt;
+
+&lt;p&gt;Whether its minification, or a set of release tasks, the game of copy and paste can be burdensome. No point in reinventing the wheel for a new project, right?&lt;/p&gt;
+
+&lt;p&gt;Thats when it struck me. Why not modularize the gulp tasks themselves? That way, I can just pull them into my current projects gulpfile.
+modularizing gulp tasksr&lt;/p&gt;
+
+&lt;h2 id=&quot;register-gulp-tasks-via-moduleexport&quot;&gt;register gulp tasks via module.export&lt;/h2&gt;
+
+&lt;p&gt;Node makes it relatively simple to require and scope methods to a single module. This post here on &lt;a href=&quot;http://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files&quot;&gt;StackOverflow&lt;/a&gt; shows that there are multiple ways to hammer a nail.&lt;/p&gt;
+
+&lt;p&gt;With gulp specifically, it is relatively easy to import tasks from another file. You do this simply by passing a reference to your initial &lt;code&gt;gulp&lt;/code&gt; object.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// add this to your gulpfile.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;gulp&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// pass along gulp reference to import tasks onto your gulp object&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;gulp-foo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Node, by default, will look in our &lt;code&gt;node_modules&lt;/code&gt; directory for a package with the name of gulp-foo&lt;/p&gt;
+
+&lt;p&gt;Inside of our module, we may expect to find something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// ./node_modules/gulp-foo/index.js&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;foo&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;By running &lt;code&gt;gulp -T&lt;/code&gt; will see that &lt;code&gt;foo&lt;/code&gt; is now one of our registered tasks.&lt;/p&gt;
+
+&lt;p&gt;We can see that by only have 2 lines in our gulpfile, we’ve opened the door to task modularity and reuse.&lt;/p&gt;
+
+&lt;h2 id=&quot;strive-for-modularity-with-gulp&quot;&gt;strive for modularity with gulp&lt;/h2&gt;
+&lt;p&gt;I am sick to death of writing the same coffee in coffee out task from project to project. It can prove to be pretty monotomnous.&lt;/p&gt;
+
+&lt;p&gt;We all have different ways of doing things in our projects, especially with gulp.&lt;/p&gt;
+
+&lt;p&gt;Some of us may keep our coffee in a separate folder than our javascripts, some of us may not.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But if you think you’ve written a pretty good gulp task, and your proud of it, why not register it on npm? share it with the world&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;that way the rest of us can stop wasting time putting together our own gulp tasks, we can standardize our projects, and focus on what we love most.&lt;/p&gt;
+
+&lt;h2 id=&quot;gulp-release-tasks-a-real-world-example&quot;&gt;gulp release tasks, a real world example&lt;/h2&gt;
+
+&lt;p&gt;I’ve applied this concept in a project called &lt;a href=&quot;https://github.com/lfender6445/gulp-release-tasks&quot;&gt;gulp release tasks&lt;/a&gt; which I hope proves useful to gulp, npm, and bower lovers alike.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 05 Oct 2014 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000//modularizing-gulp-tasks/</link>
+        <guid isPermaLink="true">http://localhost:4000//modularizing-gulp-tasks/</guid>
+        
+        <category>gulp</category>
+        
+        <category>javascript</category>
+        
+        
+      </item>
     
       <item>
         <title>10 Must Have Chrome Extensions for Developers 2014</title>
