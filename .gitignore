@@ -1,5 +1,6 @@
+.sass-cache/
 _themes
-
+_site/
 *.log
 *.gem
 *.rbc
