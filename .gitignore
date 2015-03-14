@@ -1,7 +1,8 @@
 .sass-cache/
+private
 _themes
-_site/
-*.log
+_site
+
 *.gem
 *.rbc
 *.so
@@ -30,5 +31,3 @@ mkmf.log
 coverage
 *.swp
 *.dump
-private
-/auto_pilot_config.rb
