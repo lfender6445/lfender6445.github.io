@@ -1,4 +1,6 @@
+private
 _themes
+_site
 
 *.gem
 *.rbc
@@ -28,4 +30,3 @@ mkmf.log
 coverage
 *.swp
 *.dump
-private

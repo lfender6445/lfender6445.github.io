@@ -1,0 +1,109 @@
+# Logfile created on 2015-03-14 13:18:23 -0400 by logger.rb/44203
+I, [2015-03-14T13:18:23.433999 #9303]  INFO -- : - created ./auto_pilot_config.rb
+I, [2015-03-14T13:18:23.434224 #9303]  INFO -- : would you like to add configuration to .gitignore? y/n
+I, [2015-03-14T13:18:25.310152 #9303]  INFO -- : - updated .gitignore
+I, [2015-03-14T13:21:30.346129 #12097]  INFO -- : fetching information for lfender6445 via stackoverflow api
+I, [2015-03-14T13:21:58.721544 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/5588658/
+I, [2015-03-14T13:22:02.067351 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/28291066/
+I, [2015-03-14T13:22:05.438932 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/7180959/
+I, [2015-03-14T13:22:08.872202 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/11177954/
+I, [2015-03-14T13:22:12.257417 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/22212952/
+I, [2015-03-14T13:22:15.648735 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/13011290/
+I, [2015-03-14T13:22:19.231820 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/27733799/
+I, [2015-03-14T13:22:22.698758 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/4779963/
+I, [2015-03-14T13:22:26.338937 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/1706111/
+I, [2015-03-14T13:22:29.731412 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/4592493/
+I, [2015-03-14T13:22:33.112732 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/11584975/
+I, [2015-03-14T13:22:36.466823 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/17928581/
+I, [2015-03-14T13:22:39.807245 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/2362337/
+I, [2015-03-14T13:22:43.269236 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/26292069/
+I, [2015-03-14T13:22:46.880145 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/26291069/
+I, [2015-03-14T13:22:50.221413 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/25468766/
+I, [2015-03-14T13:22:53.588432 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/17046047/
+I, [2015-03-14T13:22:56.944184 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/2742172/
+I, [2015-03-14T13:23:00.283182 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/25615289/
+I, [2015-03-14T13:23:03.644287 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/2100907/
+I, [2015-03-14T13:23:07.066309 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/19348076/
+I, [2015-03-14T13:23:10.618720 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/15738883/
+I, [2015-03-14T13:23:14.328434 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/7501092/
+I, [2015-03-14T13:23:17.685573 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/24814395/
+I, [2015-03-14T13:23:21.047864 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/24812529/
+I, [2015-03-14T13:23:24.384725 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/24812206/
+I, [2015-03-14T13:23:27.726116 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/22183859/
+I, [2015-03-14T13:23:31.156874 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/9349864/
+I, [2015-03-14T13:23:34.571544 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/16877028/
+I, [2015-03-14T13:23:37.917592 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/24501396/
+I, [2015-03-14T13:23:41.271107 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/23333127/
+I, [2015-03-14T13:23:44.622653 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/22889338/
+I, [2015-03-14T13:23:48.054821 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/5379837/
+I, [2015-03-14T13:23:51.404935 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/11723651/
+I, [2015-03-14T13:23:54.830931 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/1187089/
+I, [2015-03-14T13:23:58.188625 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/1167663/
+I, [2015-03-14T13:24:01.582959 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/10104887/
+I, [2015-03-14T13:24:04.936641 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/22951724/
+I, [2015-03-14T13:24:08.282264 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/8377263/
+I, [2015-03-14T13:24:11.622035 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/8829468/
+I, [2015-03-14T13:24:14.976241 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/1416600/
+I, [2015-03-14T13:24:18.357901 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/16642173/
+I, [2015-03-14T13:24:21.698445 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/11188598/
+I, [2015-03-14T13:24:25.244184 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/16041779/
+I, [2015-03-14T13:24:28.625814 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/14079833/
+I, [2015-03-14T13:24:32.026739 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/8475792/
+I, [2015-03-14T13:24:35.411511 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/13807686/
+I, [2015-03-14T13:24:38.755202 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/18050117/
+I, [2015-03-14T13:24:42.098965 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/14972792/
+I, [2015-03-14T13:24:45.485344 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/16661524/
+I, [2015-03-14T13:24:48.821612 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/16642451/
+I, [2015-03-14T13:24:52.205846 #12097]  INFO -- : - downloading http://stackoverflow.com/questions/7304197/
+I, [2015-03-14T13:24:52.242326 #12097]  INFO -- : - added file ./_posts/2015-03-14-auto-reload-browser-when-i-save-changes-to-html-file-in-chrome.md
+I, [2015-03-14T13:24:52.260612 #12097]  INFO -- : - added file ./_posts/2015-03-14-guard-not-sending-gntp-notifications-to-growl.md
+I, [2015-03-14T13:24:52.279411 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-to-use-pry-with-sinatra.md
+I, [2015-03-14T13:24:52.312242 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-do-i-completely-uninstall-node-js-and-reinstall-from-beginning-mac-os-x.md
+I, [2015-03-14T13:24:52.325244 #12097]  INFO -- : - added file ./_posts/2015-03-14-typeahead-uncaught-error-missing-source.md
+I, [2015-03-14T13:24:52.338219 #12097]  INFO -- : - added file ./_posts/2015-03-14-cannot-find-module-coffee-script.md
+I, [2015-03-14T13:24:52.350758 #12097]  INFO -- : - added file ./_posts/2015-03-14-rails-console-returns-nil-for-column-that-contains-a-value.md
+I, [2015-03-14T13:24:52.372356 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-can-i-access-my-localhost-from-my-android-device.md
+I, [2015-03-14T13:24:52.384591 #12097]  INFO -- : - added file ./_posts/2015-03-14-where-can-i-find-the-error-logs-of-nginx-using-fastcgi-and-django.md
+I, [2015-03-14T13:24:52.402439 #12097]  INFO -- : - added file ./_posts/2015-03-14-check-if-element-exists-in-jquery-duplicate.md
+I, [2015-03-14T13:24:52.414391 #12097]  INFO -- : - added file ./_posts/2015-03-14-meteor-public-folder-not-working.md
+I, [2015-03-14T13:24:52.426944 #12097]  INFO -- : - added file ./_posts/2015-03-14-random-concerns-folders-and-keep-files.md
+I, [2015-03-14T13:24:52.439169 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-to-set-the-google-map-zoom-level-to-show-all-the-markers.md
+I, [2015-03-14T13:24:52.454414 #12097]  INFO -- : - added file ./_posts/2015-03-14-ruby-block-procs-and-method-call.md
+I, [2015-03-14T13:24:52.465536 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-to-change-default-root-directory-where-pstore-files-are-saved.md
+I, [2015-03-14T13:24:52.478665 #12097]  INFO -- : - added file ./_posts/2015-03-14-vim-command-t-ignoring-gem-name-because-its-extensions-are-not-built-try-gem-pristine-gem-name.md
+I, [2015-03-14T13:24:52.493911 #12097]  INFO -- : - added file ./_posts/2015-03-14-logstash-with-elasticsearch.md
+I, [2015-03-14T13:24:52.505304 #12097]  INFO -- : - added file ./_posts/2015-03-14-to-use-wordpress-themes-in-rails-apps.md
+I, [2015-03-14T13:24:52.518522 #12097]  INFO -- : - added file ./_posts/2015-03-14-run-bundle-system-command-in-subfolder.md
+I, [2015-03-14T13:24:52.541334 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-to-remove-delete-a-large-file-from-commit-history-in-git-repository.md
+I, [2015-03-14T13:24:52.560743 #12097]  INFO -- : - added file ./_posts/2015-03-14-installing-a-dependency-with-bower-from-url-and-specify-version.md
+I, [2015-03-14T13:24:52.573173 #12097]  INFO -- : - added file ./_posts/2015-03-14-please-install-libyaml-and-reinstall-your-ruby.md
+I, [2015-03-14T13:24:52.588886 #12097]  INFO -- : - added file ./_posts/2015-03-14-can-i-map-alt-key-in-vim.md
+I, [2015-03-14T13:24:52.602385 #12097]  INFO -- : - added file ./_posts/2015-03-14-for-loop-and-array.md
+I, [2015-03-14T13:24:52.614782 #12097]  INFO -- : - added file ./_posts/2015-03-14-a-function-to-adjust-spacing-between-paragraph-to-fill-the-div-height.md
+I, [2015-03-14T13:24:52.626621 #12097]  INFO -- : - added file ./_posts/2015-03-14-find-url-for-webpage-based-on-a-partial-file.md
+I, [2015-03-14T13:24:52.640535 #12097]  INFO -- : - added file ./_posts/2015-03-14-javascript-err-_content-_length-_mismatch.md
+I, [2015-03-14T13:24:52.653598 #12097]  INFO -- : - added file ./_posts/2015-03-14-joomla-pages-not-found-after-copying-site-to-another-directory.md
+I, [2015-03-14T13:24:52.671339 #12097]  INFO -- : - added file ./_posts/2015-03-14-why-does-compass-watch-say-it-cannot-load-sass-script-node-loaderror.md
+I, [2015-03-14T13:24:52.684348 #12097]  INFO -- : - added file ./_posts/2015-03-14-jquery-table-not-displaying.md
+I, [2015-03-14T13:24:52.696118 #12097]  INFO -- : - added file ./_posts/2015-03-14-application-css-and-application-js-net-err-_content-_length-_mismatch.md
+I, [2015-03-14T13:24:52.709240 #12097]  INFO -- : - added file ./_posts/2015-03-14-javascript-not-loading-due-to-net-err-_content-_length-_mismatch.md
+I, [2015-03-14T13:24:52.723670 #12097]  INFO -- : - added file ./_posts/2015-03-14-is-it-possible-to-mapping-alt-hjkl-in-insert-mode.md
+I, [2015-03-14T13:24:52.736173 #12097]  INFO -- : - added file ./_posts/2015-03-14-mapping-alt-left-right-to-move-tabs.md
+I, [2015-03-14T13:24:52.751529 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-do-i-check-if-a-class-already-exists-in-ruby.md
+I, [2015-03-14T13:24:52.764958 #12097]  INFO -- : - added file ./_posts/2015-03-14-is-there-a-tool-to-remove-unused-methods-in-javascript.md
+I, [2015-03-14T13:24:52.779905 #12097]  INFO -- : - added file ./_posts/2015-03-14-jade-templating-in-meteor.md
+I, [2015-03-14T13:24:52.792975 #12097]  INFO -- : - added file ./_posts/2015-03-14-elasticsearch-match-prefix-no-matches-found.md
+I, [2015-03-14T13:24:52.803787 #12097]  INFO -- : - added file ./_posts/2015-03-14-rails-console-with-pry.md
+I, [2015-03-14T13:24:52.817953 #12097]  INFO -- : - added file ./_posts/2015-03-14-elasticsearch-query-to-return-all-records.md
+I, [2015-03-14T13:24:52.831845 #12097]  INFO -- : - added file ./_posts/2015-03-14-rails-i-update-migration-file-then-run-db-migrate-but-my-schema-isn-t-updating.md
+I, [2015-03-14T13:24:52.846015 #12097]  INFO -- : - added file ./_posts/2015-03-14-declaring-variables-javascript-duplicate.md
+I, [2015-03-14T13:24:52.858696 #12097]  INFO -- : - added file ./_posts/2015-03-14-ruby-delegate-if-object-responds-to-method.md
+I, [2015-03-14T13:24:52.872325 #12097]  INFO -- : - added file ./_posts/2015-03-14-is-it-possible-to-install-components-via-bower-to-two-different-directories.md
+I, [2015-03-14T13:24:52.891162 #12097]  INFO -- : - added file ./_posts/2015-03-14-how-to-change-bower-s-default-components-folder.md
+I, [2015-03-14T13:24:52.904505 #12097]  INFO -- : - added file ./_posts/2015-03-14-global-rescue-and-logging-exceptions-in-sinatra.md
+I, [2015-03-14T13:24:52.923470 #12097]  INFO -- : - added file ./_posts/2015-03-14-gmaps4rails-and-turbolinks-not-loading-without-full-page-refresh.md
+I, [2015-03-14T13:24:52.937656 #12097]  INFO -- : - added file ./_posts/2015-03-14-determine-if-an-ad-displayed-and-whether-it-was-clicked.md
+I, [2015-03-14T13:24:52.957652 #12097]  INFO -- : - added file ./_posts/2015-03-14-nginx-nginx-emerg-bind-to-80-failed-98-address-already-in-use-closed.md
+I, [2015-03-14T13:24:52.969812 #12097]  INFO -- : - added file ./_posts/2015-03-14-creative-puzzle-how-to-animate-brids-eye-view-wave-ripples.md
+I, [2015-03-14T13:24:52.990931 #12097]  INFO -- : - added file ./_posts/2015-03-14-center-and-auto-zoom-google-map.md
+I, [2015-03-14T13:24:53.010302 #12097]  INFO -- : - added file ./_posts/2015-03-14-nginx-install-on-linux.md
