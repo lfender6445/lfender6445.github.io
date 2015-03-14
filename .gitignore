@@ -1,7 +1,10 @@
 .sass-cache/
-private
-_themes
+private/
+_themes/
+_site/
+_site/*
 _site
+
 
 *.gem
 *.rbc
