@@ -1,5 +1,6 @@
 _themes
 
+*.log
 *.gem
 *.rbc
 *.so
@@ -29,3 +30,4 @@ coverage
 *.swp
 *.dump
 private
+/auto_pilot_config.rb
