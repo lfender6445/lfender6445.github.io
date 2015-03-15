@@ -41,3 +41,5 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "syntax-highlighting";
+html footer .wrapper { margin: 0px auto; }
+// html .post { margin-top: 60px; }
