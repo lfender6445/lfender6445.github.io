@@ -4,6 +4,7 @@ _themes/
 _site/
 _site/*
 _site
+*.log
 
 
 *.gem
@@ -34,3 +35,4 @@ mkmf.log
 coverage
 *.swp
 *.dump
+/auto_pilot_config.rb
