@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "best resources for generating teespring ideas"
-description: ""
+description: "best resources for generating teespring ideas"
 category:
-tags: []
+tags: ['teespring']
 permalink: 'best-resources-for-teespring-ideas'
 ---
 
