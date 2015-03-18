@@ -27,11 +27,14 @@ you can set up an alias to run `set_iterm_profile deploy` and your ssh command i
 alias @deploy='set_iterm_profile deploy; ssh user@host; set_iterm_profile default;'
 ```
 
-now your terminal emulator will set the new profile whenever you use the alias to connect to a box. another option is to override the ssh method so it defaults to this behavior, but I prefer the simplicity of aliasing.
+now your terminal emulator will set the new profile whenever you use the alias to connect to a box. when disconnecting, your profile will stitch back to your default :)
 
 you'll end up with something like this:
 
 ![iterm session based profile](http://i.imgur.com/0vcioTN.png)
+
+another option is to override the ssh method so it defaults to this behavior, but I prefer the simplicity of aliasing.
+
 
 # some amazing iterm2 profile designs
 iterm2 is a highly customizable terminal emulator for mac osx and ships with many options to tailor appearance.
