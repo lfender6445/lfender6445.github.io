@@ -1,17 +1,15 @@
-___
+---
 layout: post
-title: "Where can I find the error logs of nginx?"
-description: "Where can I find the error logs of nginx?"
-permalink: "where-can-i-find-nginx-error-log"
+title: "where can i find nginx error logs"
+description: "where can i find nginx error logs"
 category:
-tags: ['nginx']
+tags: ['gulp', 'javascript']
+permalink: /where-can-find-nginx-error-log/
 ---
 
 Where can I find the error logs of nginx, using fastcgi and django
 
-
-i m using django with fastcgi + nginx.I want to know were the logs (error) are stored in this case
-
+i'm using django with fastcgi + nginx.I want to know were the logs (error) are stored in this case
 
 ---------------------------------------
 My ngninx log is located here:
