@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "What's the difference between to\_a and to\_ary in ActiveRecord?"
-description: "difference beteen t_a and to_ary in active record"
+description: "difference beteen to_a and to_ary in active record"
 category:
+permalink: /difference-between-to_a-and-to_ary-in-active-record/
 tags: ['ruby']
 ---
 
 What's the difference between to\_a and to\_ary in ActiveRecord?
 
-
 What's the difference between `ActiveRecord.to_a` and `ActiveRecord.to_ary`?
-
 
 ---------------------------------------
 to\_a, when called on an object returns an array representation of obj

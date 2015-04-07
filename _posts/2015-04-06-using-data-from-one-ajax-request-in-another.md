@@ -3,6 +3,7 @@ layout: post
 title: "Using data from one ajax request in another"
 description: "Using data from one ajax request in another"
 category:
+permalink: /using-data-from-one-ajax-request-in-another/
 tags: ['ajax']
 ---
 
