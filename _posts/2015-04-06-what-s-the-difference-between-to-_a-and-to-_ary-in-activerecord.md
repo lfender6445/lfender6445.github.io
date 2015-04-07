@@ -36,9 +36,11 @@ h.to_a #=> [["c", 300], ["a", 100], ["d", 400]]
 
 so as far as I can see, the Array#to\_ary src just returns the array that is passed in, as in
 
-    def to_ary
-return self
-    end
+{% highlight ruby %}
+def to_ary
+  return self
+end
+{% endhighlight %}
 
 if I understand correctly, to\_a is used for array conversion and makes its final return using to\_ary. But this may not be true in future versions according to apidock
 
