@@ -36,4 +36,4 @@ coverage
 *.swp
 *.dump
 /auto_pilot_config.rb
-so
+stackoverflow

@@ -1,11 +1,15 @@
-GEM
-  remote: https://www.rubygems.org/
+PATH
+  remote: ../auto_pilot
   specs:
-    auto_pilot (0.4.1)
+    auto_pilot (1.0.0)
       httparty (~> 0.11.0)
       nokogiri (~> 1.6.3.1)
       reverse_markdown (~> 0.7.0)
       ruby-stackoverflow (~> 0.0.3)
+
+GEM
+  remote: https://www.rubygems.org/
+  specs:
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -123,7 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  auto_pilot (~> 0.4.1)
+  auto_pilot!
   guard-jekyll-plus (~> 2.0.1)
   jekyll
   pry
