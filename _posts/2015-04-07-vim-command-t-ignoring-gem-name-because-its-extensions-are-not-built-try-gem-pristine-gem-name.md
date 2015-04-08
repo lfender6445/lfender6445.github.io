@@ -3,7 +3,8 @@ layout: post
 title: "Vim/command-T: Ignoring “gem-name” because its extensions are not built. Try gem pristine “gem-name”"
 description: "Vim/command-T: Ignoring “gem-name” because its extensions are not built. Try gem pristine “gem-name”"
 category:
-tags: ['vim']
+tags: ['vim', 'ruby']
+permalink: /vim-command-t-ignoring-gem-name-because-its-extensions-are-not-buil-try-gem-pristine/
 ---
 
 Vim/command-T: Ignoring “gem-name” because its extensions are not built. Try gem pristine “gem-name”

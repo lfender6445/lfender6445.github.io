@@ -14,9 +14,7 @@ That's a lot of seemingly unnecessary manual editing - the parameter should alwa
 
 What would be the best way to automate this process?
 
-Edit:
-
-Turns out [someone already had done exactly what I needed](http://www.harukizaemon.com/2008/05/deploying-branches-with-capistrano.html).
+[more info](http://www.harukizaemon.com/2008/05/deploying-branches-with-capistrano.html).
 
 
 ---------------------------------------
