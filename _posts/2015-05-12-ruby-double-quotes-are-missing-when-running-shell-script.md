@@ -4,16 +4,18 @@ title: "Ruby-Double quotes are missing when running shell script"
 description: ""
 category:
 tags: []
+permalink: "ruby-double-quotes-are-missing-when-running-shell-script"
 ---
 
 Ruby-Double quotes are missing when running shell script
 
-
 I have some json created from some data I send out and when I pass the json stored in a variable to another script ( created in python) I noticed that json elements are no longer double quotes
 
-    json = @report.resultReportToJSON(result_type, result, unit)
-    puts "#{json}"
-    `"python ./post_request.py --json '#{json}'"`
+{% highlight ruby %}
+json = @report.resultReportToJSON(result_type, result, unit)
+puts "#{json}"
+`"python ./post_request.py --json '#{json}'"`
+{% endhighlight %}
 
 My output is like this. From the puts it is :
 
@@ -25,13 +27,14 @@ and the command that gets executed ( we have some logging that outputs the comma
 
 You can noticed the double quotes are gone
 
-
---------------------------------------- 
+---------------------------------------
 try this:
 
-    require 'json'
-    `"python ./post_request.py --json '#{json.to_json}'"`
+{% highlight ruby %}
+require 'json'
+`"python ./post_request.py --json '#{json.to_json}'"`
+{% endhighlight %}
 
-This may help to ensure the object is serialized with escaped quotes when translated to a system command.
+This will help to ensure the object is serialized with escaped quotes when translated to a system command.
 
 

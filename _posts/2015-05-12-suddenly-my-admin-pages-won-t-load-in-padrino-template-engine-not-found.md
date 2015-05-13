@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Suddenly my admin pages won't load in Padrino (Template Engine not found)"
-description: ""
+title: "pages won't load in Padrino (Template Engine not found)"
+description: "pages not loading in padrino"
 category:
-tags: []
+tags: ['ruby']
+permalink: 'template-not-found-padrino'
 ---
 
 Suddenly my admin pages won't load in Padrino (Template Engine not found)
@@ -23,43 +24,41 @@ With this abbreviated backtrace:
 
 Everything in app.rb is the same as it was when this used to work:
 
-    set :login_page, "/admin/sessions/new"
-    
-    
+{% highlight ruby %}
+set :login_page, "/admin/sessions/new"
 enable :sessions
 disable :store_location
-    
-    
 access_control.roles_for :any do |role|
   role.protect "/"
   role.allow "/sessions"
 end
-    
-    
 access_control.roles_for :admin do |role|
   role.project_module :stat_definitions, "/stat_definitions"
   role.project_module :accounts, "/accounts"
 end
+{% endhighlight %}
 
-
---------------------------------------- 
+---------------------------------------
 I ran into this same issue using modular Sinatra pattern application and slim for my templating engine. I couldn't render templates or partials. Here is how I fixed it:
 
-    # Gemfile
-    gem 'padrino-core'
-    gem 'padrino-helpers'
-    
-    
-    # app.rb
-    require 'padrino-core/application/rendering'
-    require 'padrino-helpers'
-    
-    
-    class App < Sinatra::Base
-register Padrino::Rendering
-register Padrino::Helpers
-    end
+{% highlight ruby %}
+# Gemfile
+gem 'padrino-core'
+gem 'padrino-helpers'
+{% endhighlight %}
+
+{% highlight ruby %}
+# app.rb
+require 'padrino-core/application/rendering'
+require 'padrino-helpers'
+
+
+class App < Sinatra::Base
+  register Padrino::Rendering
+  register Padrino::Helpers
+end
+{% endhighlight %}
+
 
 more information at [http://www.padrinorb.com/guides/standalone-usage-in-sinatra](http://www.padrinorb.com/guides/standalone-usage-in-sinatra)
-
 

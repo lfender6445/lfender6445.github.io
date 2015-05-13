@@ -3,7 +3,8 @@ layout: post
 title: "To use Wordpress themes in Rails apps?"
 description: ""
 category:
-tags: []
+tags: ['ruby', 'wordpress']
+permalink: 'use-wordpress-themeses-in-rails-app'
 ---
 
 To use Wordpress themes in Rails apps?
@@ -16,8 +17,8 @@ Is there any guideline to use Wordpress themes in a rails app? Even better, are 
 Thanks!
 
 
---------------------------------------- 
-Did not find an easy solution to this so I created a gem: [https://github.com/lfender6445/theme\_bandit](https://github.com/lfender6445/theme_bandit)
+---------------------------------------
+Did not find an easy solution to this so I created a gem, [theme_bandit](https://github.com/lfender6445/theme_bandit)
 
     gem install theme_bandit
 
