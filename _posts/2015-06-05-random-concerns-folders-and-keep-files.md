@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Random 'concerns' folders and '.keep' files"
+permalink: "random-concerns-folders-and-keep-files/"
 description: ""
 category:
-tags: []
+tags: ['git', 'ruby']
 ---
-
-Random 'concerns' folders and '.keep' files
-
 
 I am learning rails.
 
@@ -16,7 +14,7 @@ Somewhere along the line, I noticed that seemingly random folders and files are 
 Does anyone know what the deal with these files/folders is?
 
 
---------------------------------------- 
+---------------------------------------
  **.keep files are especially helpful when you want to commit empty directories with git.**
 
 The .keep files are there to prevent portage from one vcs to another, deleting important directories when you unmerge something that would cause those directories to be empty. It's a software design paradigm which seeks to decrease the number of decisions that developers need to make, gaining simplicity, but not necessarily losing flexibility.

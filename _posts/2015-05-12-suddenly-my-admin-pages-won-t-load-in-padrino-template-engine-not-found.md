@@ -4,7 +4,7 @@ title: "pages won't load in Padrino (Template Engine not found)"
 description: "pages not loading in padrino"
 category:
 tags: ['ruby']
-permalink: 'template-not-found-padrino'
+permalink: 'template-not-found-padrino/'
 ---
 
 Suddenly my admin pages won't load in Padrino (Template Engine not found)

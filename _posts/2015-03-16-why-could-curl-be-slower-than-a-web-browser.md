@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "why is curl slower than browser?"
-permalink: "curl-slower-than-browser"
+permalink: "curl-slower-than-browser/"
 description: "why is curl slower than browser?"
 category:
 tags: ['curl']

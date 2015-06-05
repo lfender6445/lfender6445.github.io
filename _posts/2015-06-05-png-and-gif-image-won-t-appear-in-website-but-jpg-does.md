@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "PNG and GIF image won't appear in website but JPG does"
+permalink: "png-and-gif-image-wont-appear-in-website-but-jpg-does/"
 description: ""
 category:
-tags: []
+tags: ['html']
 ---
-
-PNG and GIF image won't appear in website but JPG does
-
 
 My website is atomicscroll.com.
 
@@ -19,10 +17,7 @@ But [http://atomicscroll.com/img/as.jpg](http://atomicscroll.com/img/as.jpg) wor
 
 This behavior is consistent across Firefox, Chrome, and Internet Explorer. Can someone tell me why this would be?
 
-Thank you for your help.
-
-
---------------------------------------- 
+---------------------------------------
 its because the format of your image is jpg. if you want it to be a .gif file you must create or convert the jpg to that format. if the file is already there, make sure you match the file extension exactly as it appears.
 
 

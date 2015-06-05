@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Rails: I update migration file then run db:migrate, but my schema isn't updating"
+permalink: "rails-db-migrate-schema-not-updating/"
 description: ""
 category:
-tags: []
+tags: ['ruby']
 ---
 
 Rails: I update migration file then run db:migrate, but my schema isn't updating
-
 
 Im trying to add an extra field to one of my tables.
 
@@ -17,12 +17,7 @@ The schema file does not contain my new field and any attempts to reference the 
 
 How do I do this? It is possible to update a table with an extra field via rails without having to totally drop and recreate the database again?
 
-Thanks
-
-Evolve
-
-
---------------------------------------- 
+---------------------------------------
 I was able to regenerate my schema with latter migrations by running `rake db:schema:dump`
 
 

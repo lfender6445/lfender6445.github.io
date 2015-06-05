@@ -4,7 +4,7 @@ title: "best resources for generating teespring ideas"
 description: "best resources for generating teespring ideas"
 category:
 tags: ['teespring']
-permalink: 'best-resources-for-teespring-ideas'
+permalink: 'best-resources-for-teespring-ideas/'
 ---
 
 [teespring](http://www.teespring.com) is an excellent platform for CPA marketing. often, I've found myself
@@ -50,7 +50,7 @@ here is some more information on [using filters + operators with google](https:/
 ## stats, demographics + holidays
 - [sports calendar](http://en.wikipedia.org/wiki/2015_in_sports)
 - [bureau of labor stats](http://www.bls.gov/emp/ep_table_104.htm)
-- [us holidays](date.com/holidays/us/)
+- [us holidays](http://date.com/holidays/us/)
 
 # tools
 - [rhymezone](http://www.rhymezone.com/)

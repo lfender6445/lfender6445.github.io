@@ -4,7 +4,7 @@ title: "To use Wordpress themes in Rails apps?"
 description: ""
 category:
 tags: ['ruby', 'wordpress']
-permalink: 'use-wordpress-themeses-in-rails-app'
+permalink: 'use-wordpress-themeses-in-rails-app/'
 ---
 
 To use Wordpress themes in Rails apps?

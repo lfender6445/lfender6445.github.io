@@ -4,7 +4,7 @@ title: "Run `bundle` system command in subfolder"
 description: ""
 category:
 tags: ['ruby']
-permalink: "run-bundle-system-command-in-subfolder"
+permalink: "run-bundle-system-command-in-subfolder/"
 ---
 
 Run `bundle` system command in subfolder

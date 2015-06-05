@@ -4,7 +4,7 @@ title: "ssh change default port"
 description: "change default ssh port, mac or linux"
 category:
 tags: ['ssh']
-permalink: 'ssh-change-default-port'
+permalink: 'ssh-change-default-port/'
 ---
 
 Working behind a firewall sucks - what if you need access to your remote linux instance?

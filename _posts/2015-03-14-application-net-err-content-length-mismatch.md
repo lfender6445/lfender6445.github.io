@@ -4,7 +4,7 @@ title: "net::ERR\_CONTENT\_LENGTH\_MISMATCH"
 description: "how to fix net err content length mismatch"
 category:
 tags: ['nginx']
-permalink: 'application-net-err-content-length-mismatch'
+permalink: 'application-net-err-content-length-mismatch/'
 ---
 
 Content length errors occur when there is a byte difference between the size of the response in the header compared to the actual size of the response document.

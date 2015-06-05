@@ -2,7 +2,7 @@
 layout: post
 title: "change iterm2 profile based on session"
 description: "change iterm2 profile based on session"
-permalink: "iterm2-set-color-profile-based-on-session"
+permalink: "iterm2-set-color-profile-based-on-session/"
 category:
 tags: ['terminal', 'shell']
 ---

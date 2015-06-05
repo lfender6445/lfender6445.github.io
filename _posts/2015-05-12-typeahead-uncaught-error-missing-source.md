@@ -4,7 +4,7 @@ title: "Typeahead: Uncaught Error Missing source"
 description: ""
 category:
 tags: ["javascript"]
-permalink: "typeahead-uncaught-error-missing-source"
+permalink: "typeahead-uncaught-error-missing-source/"
 ---
 
 Typeahead: Uncaught Error Missing source

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "rails import sql, column mismatch on id"
+permalink: "rails-import-sql-column-mismatch-on-id/"
 description: ""
 category:
 tags: []
@@ -13,23 +14,25 @@ I have a series of sql statements that I am reading into my db - specificially, 
 
 My migration to create the table:
 
-    class CreateCitiesExtended < ActiveRecord::Migration
-def change
-  create_table :cities_extended do |t|
-    t.string :city
-    t.string :state_code
-    t.integer :zip
-    t.float :latitude
-    t.float :longitude
-    t.string :county
+{% highlight ruby%}
+class CreateCitiesExtended < ActiveRecord::Migration
+  def change
+    create_table :cities_extended do |t|
+      t.string :city
+      t.string :state_code
+      t.integer :zip
+      t.float :latitude
+      t.float :longitude
+      t.string :county
+    end
+  end
+
+
+  def down
+    drop_table :cities_extended
   end
 end
-    
-    
-def down
-  drop_table :cities_extended
-end
-    end
+{% endhighlight %}
 
 After running the migration:
 
@@ -52,25 +55,27 @@ But when I attempt to read the .sql file into my sqlite table, I get a column mi
 
     rails db
     sqlite> .read ./db/data/cities_extended.sql
-    
-    
+
     Error: near line 41780: table cities_extended has 7 columns but 6 values were supplied
     Error: near line 41781: table cities_extended has 7 columns but 6 values were supplied
 
 As you can see from the migrated table, an extra column called id was created by rails. This prevents the table from being seeded. What is the best way to satisfy the column requirements?
 
 
---------------------------------------- 
+---------------------------------------
+
 So i found a work around, but I'm not convinced its the best way:
 
-    class CreateCitiesExtended < ActiveRecord::Migration
+{% highlight ruby %}
+class CreateCitiesExtended < ActiveRecord::Migration
   def change
-      create_table :cities_extended, :id => false do |t|
+    create_table :cities_extended, :id => false ...
+  end
+end
+{% endhighlight %}
 
-Setting :id => false allows me to bypass the requirements.
+Setting `:id => false` allows me to bypass the requirements.
 
-It works for my cause, but I'm not sure its the best way because there will not be any unique ID's on any of the records. I'll leave the question open in case someone knows of a better way?
+It works for my cause, but I'm not sure its the best way because there will not be any unique ID's on any of the records.
 
 source: [Create an ActiveRecord database table with no :id column?](http://stackoverflow.com/questions/874634/create-an-activerecord-database-table-with-no-id-column)
-
-

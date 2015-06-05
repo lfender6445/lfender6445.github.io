@@ -4,10 +4,10 @@ title: "Please install libyaml and reinstall your ruby"
 description: ""
 category:
 tags: []
+permalink: "please-install-libyaml-and-reinstall-your-ruby/"
 ---
 
-Please install libyaml and reinstall your ruby
-
+`Please install libyaml and reinstall your ruby`
 
 libyaml warning doesn't go away, even if you install libyaml
 
@@ -18,8 +18,7 @@ libyaml warning doesn't go away, even if you install libyaml
     Fetching: bundler-1.3.4.gem (100%)
     Successfully installed bundler-1.3.4
 
-
---------------------------------------- 
+---------------------------------------
 A friend of mine had a similar problem on his mac.
 
 `brew install libyaml`

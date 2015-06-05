@@ -4,7 +4,7 @@ title: "Ruby-Double quotes are missing when running shell script"
 description: ""
 category:
 tags: []
-permalink: "ruby-double-quotes-are-missing-when-running-shell-script"
+permalink: "ruby-double-quotes-are-missing-when-running-shell-script/"
 ---
 
 Ruby-Double quotes are missing when running shell script
