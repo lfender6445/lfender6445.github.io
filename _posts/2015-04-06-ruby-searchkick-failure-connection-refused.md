@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ruby searchkick failure : connection refused"
-permalink: "ruby-searchkick-failure-connection-refused"
+permalink: "ruby-searchkick-failure-connection-refused/"
 description: ""
 category:
 tags: ['ruby']
