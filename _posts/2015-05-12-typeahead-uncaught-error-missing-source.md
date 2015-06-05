@@ -9,7 +9,6 @@ permalink: "typeahead-uncaught-error-missing-source/"
 
 Typeahead: Uncaught Error Missing source
 
-
 I am getting this error in console everytime I try to run the following code
 
 {% highlight javascript %}

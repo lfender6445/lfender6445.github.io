@@ -4,7 +4,7 @@ title: "where can i find nginx error logs"
 description: "where can i find nginx error logs"
 category:
 tags: ['gulp', 'javascript']
-permalink: /where-can-find-nginx-error-log/
+permalink: where-can-find-nginx-error-log/
 ---
 
 Where can I find the error logs of nginx, using fastcgi and django

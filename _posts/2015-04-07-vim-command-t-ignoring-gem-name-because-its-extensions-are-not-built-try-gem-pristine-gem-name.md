@@ -4,7 +4,7 @@ title: "Vim/command-T: Ignoring “gem-name” because its extensions are not bu
 description: "Vim/command-T: Ignoring “gem-name” because its extensions are not built. Try gem pristine “gem-name”"
 category:
 tags: ['vim', 'ruby']
-permalink: /vim-command-t-ignoring-gem-name-because-its-extensions-are-not-buil-try-gem-pristine/
+permalink: vim-command-t-ignoring-gem-name-because-its-extensions-are-not-buil-try-gem-pristine/
 ---
 
 Vim/command-T: Ignoring “gem-name” because its extensions are not built. Try gem pristine “gem-name”

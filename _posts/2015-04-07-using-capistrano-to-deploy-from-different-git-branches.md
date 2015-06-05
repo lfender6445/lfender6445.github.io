@@ -4,7 +4,7 @@ title: "Using capistrano to deploy from different git branches"
 description: "Using capistrano to deploy from different git branches"
 category:
 tags: ['ruby', 'capistrano']
-permalink: '/using-capistrano-to-deploy-from-different-git-branches/'
+permalink: 'using-capistrano-to-deploy-from-different-git-branches/'
 ---
 
 I am using capistrano to deploy a RoR application. The codebase is in a git repository, and branching is widely used in development. Capistrano uses deploy.rb file for it's settings, one of them being the branch to deploy from.
