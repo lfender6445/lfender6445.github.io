@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Enable Chrome Canary Dark Theme"
-description: "Enable Chrome Canary Dark Theme"
+title: "Enable Chrome Canary Dark Theme in Dev Tools"
+description: "Enable Chrome Canary Dark Theme in Dev Tools"
 category: chrome
-permalink: "enable-chrome-canary-dark-theme/"
+permalink: "enable-chrome-canary-dark-theme-dev-tools/"
 tags: []
 ---
 
