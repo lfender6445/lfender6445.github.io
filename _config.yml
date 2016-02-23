@@ -1,7 +1,6 @@
 title: Luke Fender
 email: lfender6445@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  dr jekyll and lawnmower man walk into a foobar
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lfender6445.github.io" # the base hostname & protocol for your site
