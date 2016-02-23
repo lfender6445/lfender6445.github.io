@@ -3,6 +3,7 @@ layout: post
 title: "Enable Chrome Canary Dark Theme"
 description: "Enable Chrome Canary Dark Theme"
 category: chrome
+permalink: "enable-chrome-canary-dark-theme/"
 tags: []
 ---
 
