@@ -11,8 +11,8 @@ blog was built using [jekyll](http://jekyllrb.com/) and [auto_pilot](https://git
 # projects
 
 - [www.json2yaml.com](http://www.json2yaml.com) - convert json to yaml online
-- [www.testmycss.com](http://www.testmycss.com) - analyze your css
-- [www.bouncyatlanta.com](http://www.bouncyatlanta.com) - inflatable rentals service
+- [www.testmycss.com](http://www.testmycss.com) - Optimize CSS delivery and performance by checking for redundancy, validation errors, and following best practices.
+
 
 <a href="http://stackexchange.com/users/1529114">
 <img src="http://stackexchange.com/users/flair/1529114.png?theme=dark" width="208" height="58" alt="profile for lfender6445 on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for lfender6445 on Stack Exchange, a network of free, community-driven Q&amp;A sites">
