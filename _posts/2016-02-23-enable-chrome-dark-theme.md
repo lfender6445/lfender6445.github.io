@@ -7,7 +7,7 @@ permalink: "enable-chrome-canary-dark-theme-dev-tools/"
 tags: []
 ---
 
-Google Chrome Canary now supports dark themes
+Google Chrome Canary now supports a dark theme default in dev tools
 
 - Download [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 - open developer tools
